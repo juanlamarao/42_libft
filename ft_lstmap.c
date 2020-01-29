@@ -6,7 +6,7 @@
 /*   By: juolivei <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/25 16:39:57 by juolivei          #+#    #+#             */
-/*   Updated: 2020/01/25 17:55:10 by juolivei         ###   ########.fr       */
+/*   Updated: 2020/01/27 12:46:56 by juolivei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	t_list	*n_lst;
 	t_list	*n_el;
 
-	if (!lst || !f || !del)
-		return (NULL);
 	n_lst = NULL;
 	while (lst)
 	{

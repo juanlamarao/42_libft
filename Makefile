@@ -6,7 +6,7 @@
 #    By: juolivei <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/01/22 13:05:47 by juolivei          #+#    #+#              #
-#    Updated: 2020/01/25 17:47:49 by juolivei         ###   ########.fr        #
+#    Updated: 2020/01/27 10:23:32 by juolivei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,9 +24,9 @@ FILES_C += ft_substr.c ft_strjoin.c ft_strtrim.c ft_split.c ft_itoa.c \
 		   ft_strmapi.c ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c \
 		   ft_putnbr_fd.c
 FILES_C += ft_strcpy.c ft_strcat.c
-B_FILES_C += ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c \
-			 ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c \
-			 ft_lstmap.c
+B_FILES_C += ft_lstnew.c ft_lstadd_front.c ft_lstsize.c \
+			 ft_lstlast.c ft_lstadd_back.c ft_lstdelone.c \
+			 ft_lstclear.c ft_lstiter.c ft_lstmap.c
 
 FILES_O += ft_memset.o ft_bzero.o ft_memcpy.o ft_memccpy.o ft_memmove.o \
 		   ft_memchr.o ft_memcmp.o ft_strlen.o ft_strlcpy.o ft_strlcat.o \
@@ -37,9 +37,9 @@ FILES_O += ft_substr.o ft_strjoin.o ft_strtrim.o ft_split.o ft_itoa.o \
 		   ft_strmapi.o ft_putchar_fd.o ft_putstr_fd.o ft_putendl_fd.o \
 		   ft_putnbr_fd.o
 FILES_O += ft_strcpy.o ft_strcat.o
-B_FILES_O += ft_lstnew.o ft_lstadd_front.o ft_lstsize.o ft_lstlast.o \
-			 ft_lstadd_back.o ft_lstdelone.o ft_lstclear.o ft_lstiter.o \
-			 ft_lstmap.o
+B_FILES_O += ft_lstnew.o ft_lstadd_front.o ft_lstsize.o \
+			 ft_lstlast.o ft_lstadd_back.o ft_lstdelone.o \
+			 ft_lstclear.o ft_lstiter.o ft_lstmap.o
 
 all: $(NAME)
 
