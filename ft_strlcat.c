@@ -15,12 +15,10 @@
 size_t	ft_strlcat(char *dst, const char *src, size_t destsize)
 {
 	size_t	i;
-	size_t	len;
 	size_t	d_len;
 	size_t	s_len;
 
 	i = 0;
-	len = 0;
 	d_len = ft_strlen(dst);
 	s_len = ft_strlen(src);
 	if (destsize < d_len)
