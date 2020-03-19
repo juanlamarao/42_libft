@@ -53,7 +53,7 @@ static	char	**ft_split2(char const *s, char c, int j, int i)
 			n++;
 		i = 0;
 		ptr[j] = (char *)ft_calloc((ft_len_until(s + n, c) + 1), sizeof(char));
-		while (s[n] && s[n] != c && s[n])
+		while (s[n] && s[n] != c)
 		{
 			ptr[j][i++] = s[n++];
 			if (s[n] == c || s[n] == '\0')
