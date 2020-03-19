@@ -20,52 +20,56 @@ PART 1 - 100%, PART 2 - 100%, BONUS PART - Seg fault
 ## Functions List
 ### 1st part
 * ft_memset
-> Set _len_ bytes of _b_ with char content of _c_  
+> Set _len_ bytes of _b_ with char content of _c_.  
 > void   \*ft_memset(void \*b, int c, size_t len);
 * ft_bzero
-> Set _len_ bytes of _s_ with '\0'  
+> Set _len_ bytes of _s_ with '\0'.  
 > void   ft_bzero(void \*s, size_t n);
 * ft_memcpy
-> 
+> Copies _n_ bytes from memory area _src_ to memory area _dest_.  
 > void   \*ft_memcpy(void \*dst, const void \*src, size_t n);
 * ft_memccpy
-> 
+> Copies no more than _n_ bytes from memory area _src_ to memory area 
+> _dest_, stopping when the character c is found.  
 > void   \*ft_memccpy(void \*dst, const void \*src, int c, size_t n);
 * ft_memmove
-> 
+> Copies _n_ bytes from memory area _src_ to memory area _dest_.  
 > void   \*ft_memmove(void \*dst, const void \*src, size_t n);
 * ft_memchr
-> 
+> Scans the  initial _n_ bytes of the memory area pointed to by _s_ for the first instance of _c_.  
 > void   \*ft_memchr(const void \*s, int c, size_t n);
 * ft_memcmp
-> 
+> Compares the first _n_ bytes (each interpreted as unsigned char) of the memory areas _dst_ and _src_.  
 > void   \*ft_memcpy(void \*dst, const void \*src, size_t n);
 * ft_strlen
-> 
+> Calculates the length of the string pointed to by _s_, excluding the terminating null byte '\0'.  
 > int    ft_strlen(const char \*s);
 * ft_strdup
-> 
+> Returns a pointer to a new string which is a duplicate of the string _s_.  
 > char   \*ft_strdup(const char \*s);
 * ft_calloc
-> 
+> Allocates memory for an array of nmemb elements of size bytes each and
+> returns a pointer to the allocated memory. The memory  is  set  to zero.  
 > void   \*ft_calloc(size_t nmemb, size_t size);
 * ft_strlcat
-> 
+> Appends the NUL-terminated string src to the end of dst.  It will append
+> at most size - strlen(dst) - 1 bytes, NUL-terminating the result.  
 > size_t  ft_strlcat(char \*dst, const char \*src, size_t destsize);
 * ft_strchr
-> 
+> Returns a pointer to the first occurrence of the character c in the string s.
 > char   \*ft_strchr(const char \*s, int c);
 * ft_strrchr
-> 
+> Returns a pointer to the last occurrence of  the character c in the string s.
 > char   \*ft_strrchr(const char \*s, int c);
 * ft_strnstr
-> 
+> Locates the first occurrence of the null-terminated string little in the string
+> big, where not more than len characters are searched.
 > char   \*ft_strnstr(const char \*s1, const char \*s2, size_t len);
 * ft_strncmp
-> 
+> Compares the two strings s1 and s2 and return the difference between chars.
 > int    ft_strncmp(const char \*s1, const char \*s2, size_t n);
 * ft_atoi
-> 
+> Converts the initial portion of the string pointed to by nptr to int.
 > int    ft_atoi(const char \*str);
 * ft_isalpha
 > 
