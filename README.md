@@ -8,14 +8,14 @@ Remake of classic functions of libC, stdlib, new functions +linked list operatio
 PART 1 - 100%, PART 2 - 100%, BONUS PART - Seg fault
 
 ## Compilation
-1. git clone <https://github.com/juanlamarao/42_libft
-2. cd 42_libft
-3. make
+1. `git clone <https://github.com/juanlamarao/42_libft`
+2. `cd 42_libft`
+3. `make`
 
 ## How to test
 1. Compile libft.a
 2. Include in your project the libft.h file
-3. Compile your project with <-L. ft> flag
+3. Compile your project with `-L. ft` flag
 
 ## Functions List
 ### 1st part
